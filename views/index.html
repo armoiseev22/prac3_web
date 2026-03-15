@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Регистрация студента</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Регистрация студента</h1>
+      <form action="/register" method="post">
+
+        <label>Имя</label><br />
+        <input type="text" name="userName" placeholder="Введите имя" required /><br /><br />
+
+        <label>Возраст</label><br />
+        <input type="number" name="userAge" placeholder="Введите возраст" required /><br /><br />
+
+        <label>Email</label><br />
+        <input type="email" name="userEmail" placeholder="Введите email" required /><br /><br />
+
+        <label>Группа</label><br />
+        <input type="text" name="userGroup" placeholder="Например: БПМ222" required /><br /><br />
+
+        <input type="submit" value="Зарегистрироваться" />
+      </form>
+    </div>
+  </body>
+</html>
