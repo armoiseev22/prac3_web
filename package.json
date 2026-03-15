@@ -1,0 +1,17 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Практическое задание: Express + MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "init-db": "node db-init.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^4.4.1"
+  }
+}
